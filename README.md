@@ -5,33 +5,77 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bekam Homecare Bandung</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-
 <style>
+body {
+    margin:0;
+    font-family: Arial, sans-serif;
+    line-height:1.6;
+}
+
 .hero {
-background: linear-gradient(135deg,#1faa59,#20c997);
-color:white;
-padding:70px 20px;
-text-align:center;
+    background: linear-gradient(to right, #0f766e, #115e59);
+    color:white;
+    padding:50px 20px;
+    text-align:center;
 }
+
+.hero h1 {
+    font-size:28px;
+}
+
+.btn {
+    display:inline-block;
+    margin-top:20px;
+    padding:15px 25px;
+    background:#25D366;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
 .section {
-padding:50px 20px;
+    padding:40px 20px;
+    text-align:center;
 }
-.testi {
-background:#f8f9fa;
-padding:15px;
-border-radius:10px;
-margin-bottom:10px;
+
+.section h2 {
+    color:#0f766e;
 }
-.wa {
-position:fixed;
-bottom:20px;
-right:20px;
-background:#25D366;
-color:white;
-padding:15px;
-border-radius:50px;
-text-decoration:none;
+
+.grid {
+    display:flex;
+    flex-wrap:wrap;
+    gap:20px;
+    justify-content:center;
+}
+
+.card {
+    width:250px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+img {
+    width:100%;
+    border-radius:10px;
+}
+
+.testimoni {
+    background:#f9f9f9;
+}
+
+.sticky-wa {
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50px;
+    text-decoration:none;
+    font-weight:bold;
 }
 </style>
 </head>
@@ -40,56 +84,53 @@ text-decoration:none;
 
 <!-- HERO -->
 <div class="hero">
-<h1>TERAPIS BEKAM PANGGILAN BANDUNG</h1>
-<p>Solusi Pegal, Masuk Angin & Badan Lelah</p>
-<a href="https://wa.me/6282126357983" class="btn btn-warning btn-lg">Booking Sekarang</a>
+<h1>🔥 Terapi Bekam Panggilan ke Rumah</h1>
+<p>Atasi Darah Tinggi, Pegal-Pegal & Masuk Angin</p>
+<a class="btn" href="https://wa.me/6282126357983">Booking Sekarang</a>
 </div>
 
-<!-- PROBLEM -->
-<div class="section text-center">
-<h2>Sering Mengalami Ini?</h2>
-<p>
-❌ Pegal-pegal<br>
-❌ Mudah capek<br>
-❌ Susah tidur<br>
-❌ Masuk angin terus
-</p>
+<!-- MASALAH -->
+<div class="section">
+<h2>Sering Mengalami?</h2>
+<div class="grid">
+<div class="card">😣 Pegal-pegal</div>
+<div class="card">🤕 Darah tinggi</div>
+<div class="card">😩 Badan lemas</div>
+</div>
 </div>
 
 <!-- SOLUSI -->
-<div class="section bg-light text-center">
-<h2>Solusi: Bekam Panggilan</h2>
-<p>Kami datang langsung ke rumah Anda. Praktis, nyaman & profesional.</p>
+<div class="section">
+<h2>Solusi Terbaik</h2>
+<img src="https://images.unsplash.com/photo-1584467735871-8f3c1bfc7c1d" alt="bekam">
+<p>Bekam sesuai sunnah, aman & ditangani terapis berpengalaman.</p>
 </div>
 
-<!-- MANFAAT -->
-<div class="section text-center">
-<h2>Manfaat Bekam</h2>
-<p>
-✔ Badan lebih ringan<br>
-✔ Tidur lebih nyenyak<br>
-✔ Lebih sehat & segar
-</p>
+<!-- KEUNGGULAN -->
+<div class="section">
+<h2>Kenapa Pilih Kami?</h2>
+<div class="grid">
+<div class="card">✅ Homecare (datang ke rumah)</div>
+<div class="card">✅ Alat steril & aman</div>
+<div class="card">✅ Terapis berpengalaman</div>
+</div>
 </div>
 
 <!-- TESTIMONI -->
-<div class="section">
-<h2 class="text-center">Testimoni</h2>
-<div class="testi">"Baru sekali bekam langsung enak banget!"</div>
-<div class="testi">"Gak perlu keluar rumah, praktis!"</div>
+<div class="section testimoni">
+<h2>Testimoni</h2>
+<p>"Alhamdulillah badan jadi ringan setelah bekam!"</p>
+<p>"Darah tinggi saya lebih stabil"</p>
 </div>
 
 <!-- CTA -->
-<div class="hero">
-<h2>Promo Hari Ini!</h2>
-<p>Slot terbatas, booking sekarang sebelum penuh</p>
-<a href="https://wa.me/6282126357983" class="btn btn-warning btn-lg">Chat WhatsApp</a>
+<div class="section">
+<h2>Jangan Tunggu Sakit Parah!</h2>
+<a class="btn" href="https://wa.me/6282126357983">Klik WhatsApp Sekarang</a>
 </div>
 
-<!-- WA FLOAT -->
-<a href="https://wa.me/6282126357983" class="wa">💬 Chat</a>
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- STICKY BUTTON -->
+<a class="sticky-wa" href="https://wa.me/6282126357983">Chat WA</a>
 
 </body>
 </html>
